@@ -1,0 +1,126 @@
+:root {
+    /* ## Colors */
+
+    /* ### Primary */
+
+    --soft-red: hsl(10, 79%, 65%);
+    --cyan: hsl(186, 34%, 60%);
+
+    /* ### Neutral */
+
+    
+    --dark-brown: hsl(25, 47%, 15%);
+    --medium-brown: hsl(28, 10%, 53%);
+    --cream: hsl(27, 66%, 92%);
+    --very-pale-orange: hsl(33, 100%, 98%);
+
+
+}
+
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+    scroll-behavior: smooth;
+}
+
+html,
+body {
+    font-family: 'DM Sans', sans-serif;
+    /* display: flex;
+    justify-content: center;  */
+    /* padding-left: 10px;
+    margin-top: 15px; */
+    display: grid;
+    justify-content: center;
+    align-items: center;
+    flex-direction: column;
+    margin: 5rem;
+    background-color: var(--cream);
+}
+
+.titulo {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    flex-wrap: wrap;
+    align-content: space-between;
+    flex-direction: column;
+    padding-left: 15px;
+    gap: 8px;
+
+
+    height: 9vh;
+    min-width: 375px;
+    width: 8vw;
+
+    background-color: var(--soft-red);
+    border-radius: 0.3rem;
+    color: var(--very-pale-orange);
+}
+
+.titulo h3{
+   font-weight: 100;
+   font-size: 12px;
+}
+.titulo h1{
+    font-weight: 100;
+    font-size: 24px;
+}
+
+.foto{
+    padding-right: 1rem;
+}
+.caixa{
+    background-color: var(--very-pale-orange);
+    width: 23.5rem;
+    height: 30rem;
+    margin-top: 2rem;
+    border-radius: 0.3rem;
+}
+
+.caixa h1{
+    font-size: 26px;
+    padding-left: 2rem;
+    align-items: flex-end;
+}
+.text1 hr{
+    border-color: var(--very-pale-orange);
+}
+.text1{
+    padding-left: 1rem;
+    margin-top: 22rem;
+}
+.text1 h3{
+    font-size: 13px;
+    padding-left: 2rem;
+    color: var(--medium-brown);
+}
+.text1 h1{
+    font-size: 28px;
+}
+.text1 hr{
+    color: var(--very-pale-orange);
+}
+
+
+.text2{
+    text-align: end;
+    
+}
+.text2 h2{
+    font-size: 20px;
+}
+.text2 h4{
+    color: var(--medium-brown);
+    font-size: 15px;
+} 
+
+
+
+
+
+/* <style>
+.attribution { font-size: 11px; text-align: center; }
+.attribution a { color: hsl(228, 45%, 44%); }
+</style> */
